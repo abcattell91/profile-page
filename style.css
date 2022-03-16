@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:wght@200;700&family=Roboto&family=Roboto+Mono:wght@200&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #219dbc0e;
+
+}
+
+h1 {
+  color: #E45826;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;;
+}
+
+p {
+  color: #1b1a17b9;
+  font-size: 16px;
+  font-weight: 250;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+a {
+  color: #E45826;
+  text-decoration: none;
+  font-size: 50px;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #13667a;
+}
+.img-profile {
+  background-color: #FFFF;
+  border-radius: 1000px;
+  border: 8px solid #FFFF;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  height: 20%;
+  width: 20%;
+  padding: 0px auto;
+  border-radius: 10%;
+}
+
+.card-white {
+  padding: 8%;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4%;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 4px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-green {
+  width: 1%;
+  width: 50%;
+  font-size: 25px;
+  background-color: #e45926da;
+  color: white;
+  padding: 2%;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+.btn-green:hover {
+  background-color: #13667a;
+  color: white
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
